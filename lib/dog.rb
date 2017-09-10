@@ -3,13 +3,13 @@ class Dog
     @name
   end
   def name=(new_name) #writes the name of the dog to instance variable @name
-    @name = new_name  
+    @name = new_name
   end
 
-  def breed
+  def breed #reads the breed from instance variable @name
     @breed
   end
-  def breed=(new_breed)
+  def breed=(new_breed) #writes the breed to instance variable @name
     @bread = new_breed
   end
 end
