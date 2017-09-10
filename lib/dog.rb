@@ -10,6 +10,6 @@ class Dog
     @breed
   end
   def breed=(new_breed) #writes the breed to instance variable @name
-    @bread = new_breed
+    @breed = new_breed
   end
 end
